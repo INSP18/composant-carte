@@ -1,0 +1,169 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url('bg.png');
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main
+{
+    padding: 50px;
+}
+
+h1
+{
+    color: #ffffff;
+    font-size:3.5em;
+    margin: 0px;
+    font-weight: bold;
+    width: 40%;
+}
+
+span
+{
+    color:#39ff14;
+    font-weight: bold;
+}
+
+section
+{
+    margin: 0;
+    padding: 0;
+}
+
+.fstart
+{
+    display: inline-block;
+    width:47%;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+.sndart
+{
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+.img1
+{
+    width: 30px;
+    height: 30px;
+}
+
+p
+{
+    font-size: 1em;
+    line-height: 1.2em;
+    color:#ffffff;
+}
+
+h2
+{
+    color:#ffffff;
+    margin: 0px;
+    width: 40%;
+    text-transform:uppercase;
+}
+
+h3
+{
+    font-size: 1em;
+    line-height: 1.2em;
+    color:#39ff14;
+}
+
+.desc
+{
+    list-style-type: none;
+    margin: 80px auto;
+    padding: 0px;
+}
+
+.desc li
+{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.desc li p
+{
+    font-size: 0.6em;
+    text-transform:uppercase;
+}
+
+
+.buynow
+{
+    display: inline-block;
+    background-color:#39ff14;
+    padding: 2px 2px;
+    border-radius: 8px;
+    width: 40%;
+    text-align:center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.panier
+{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.more
+{
+    display: inline-block;
+    padding: 8px 2px;
+    border-radius: 8px;
+    width: 40%;
+    text-align:center;
+    color:#39ff14;
+    background-color:transparent;
+    cursor: pointer;
+}
+
+.assurance
+{
+    list-style-type:none;
+    display:block;
+    border: 1px solid #39ff14;
+    border-radius: 6px;
+    width:38%;
+    padding-left: 0px;
+}
+
+.assurance li
+{
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.assurance li p
+{
+    display: inline-block;
+    font-size: 0.7em;
+}
+
+.img3
+{
+    width: 27px;
+    height: 27px;
+}
+
+footer
+{
+    text-align: center;
+    padding: 0;
+}

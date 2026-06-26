@@ -9,9 +9,17 @@ body
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+header
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 50px;
+    margin-right: 0;
+}
+
 main
 {
-    padding: 50px;
+    padding: 0 50px;
 }
 
 h1
@@ -38,16 +46,16 @@ section
 .fstart
 {
     display: inline-block;
-    width:47%;
+    width: 50%;
     vertical-align: top;
     margin: 0;
     padding: 0;
 }
 
-.sndart
+div
 {
     display: inline-block;
-    width: 47%;
+    width: 30%;
     vertical-align: top;
     margin: 0;
     padding: 0;
@@ -84,7 +92,7 @@ h3
 .desc
 {
     list-style-type: none;
-    margin: 80px auto;
+    margin: 50px auto;
     padding: 0px;
 }
 
@@ -166,4 +174,5 @@ footer
 {
     text-align: center;
     padding: 0;
+    margin-left: 50px;
 }
